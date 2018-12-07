@@ -1,0 +1,142 @@
+/*
+css tag-> relative : position an element depending upon the actual loacation of the element and don't effect other elements.
+
+absolute : position an element depending upon it's parent element and do effect other elements.
+*/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  color: #207e82;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.0625rem;/* 16px = 100% so 90px = (90/16)*100 = 562.5% = 5.625em : it helps to change size of the font accordingly*/
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h2 {
+  color: #207e82;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.85rem;
+  margin: 0;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #207e82;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+.top-div {
+  background-color: #8bd5cb;
+  padding-top: 125px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  left: 320px;
+  position: absolute;
+  top: 250px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-image {
+  border-radius: 100px;
+  height: 150px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  width: 150px;
+}
+
+.skill-image1 {
+  float: left;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.skill-image2 {
+  float: right;
+  margin-left: 10px;
+  width: 25%;
+}
+
+hr {
+  border-color: gray;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.bottom-container{
+  background-color: #8bd5cb;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.last-para{
+  margin-bottom: 0;
+  color: #EAF6F6;
+  padding-bottom: 50px;
+
+}
+
+.para-pogramer{
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.skill-row{
+  line-height: 2;
+  margin: 60px auto 60px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-btn{
+  background-color: #11999E;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-btn:hover{
+  background-color: #35d0ba;
+  color: #deecfc;
+}
+
+.intro{
+  margin: 20px auto;
+  width: 35%;
+}
+
+.contact-msg{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
